@@ -1,2 +1,8 @@
-# mobile-sib2e-18-sharon
 Praktikum Mobile Programming - SIB 2E - Absen 18
+
+# Praktikum Mobile Programming
+Nama  : Sharon Avrilunajwa Sajidah
+Absen : 18
+Kelas : SIB 2E
+
+Repository ini berisi tugas dan praktikum mata kuliah Mobile Programming.
