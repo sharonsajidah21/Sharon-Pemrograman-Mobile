@@ -1,0 +1,48 @@
+void main() {
+
+  // =========================
+  // Percobaan 1 (If - Else)
+  // =========================
+  String test = "test2";
+
+  if (test == "test1") {
+    print("Test1");
+  } else if (test == "test2") {
+    print("Test2");
+  } else {
+    print("Something else");
+  }
+
+  if (test == "test2") {
+    print("Test2 again");
+  }
+
+  // =========================
+  // Percobaan 2 (If dengan String true)
+  // =========================
+  String test2 = "true";
+
+  if (test2 == "true") {
+    print("Kebenaran");
+  } else {
+    print("Bukan Kebenaran");
+  }
+
+  // =========================
+  // Percobaan 3 (While)
+  // =========================
+  int counter = 0;
+
+  while (counter < 33) {
+    print(counter);
+    counter++;
+  }
+
+  // =========================
+  // Percobaan 4 (Do-While)
+  // =========================
+  do {
+    print(counter);
+    counter++;
+  } while (counter < 77);
+}
