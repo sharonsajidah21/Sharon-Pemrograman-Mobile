@@ -1,0 +1,63 @@
+void main() {
+
+  // Langkah 1 - Spread Operator
+  var list = [1, 2, 3];
+  var list2 = [0, ...list];
+
+  print("Langkah 1");
+  print(list);
+  print(list2);
+  print(list2.length);
+
+
+  // Langkah 3 - Null Aware Spread Operator
+  var list1 = [1, 2, null];
+  print("\nLangkah 3");
+  print(list1);
+
+  var list3 = [0, ...?list1];
+  print(list3);
+  print(list3.length);
+
+  // List berisi NIM menggunakan Spread Operator
+  var nim = ['244107060017'];
+  var listNim = ['NIM:', ...nim];
+  print(listNim);
+
+
+  // Langkah 4 - Control Flow If dalam List
+  bool promoActive = true;
+
+  var nav = ['Home', 'Furniture', 'Plants', if (promoActive) 'Outlet'];
+
+  print("\nLangkah 4");
+  print(nav);
+
+
+  // Langkah 5 - Conditional Element
+  String login = 'Manager';
+
+  var nav2 = [
+    'Home',
+    'Furniture',
+    'Plants',
+    if (login == 'Manager') 'Inventory'
+  ];
+
+  print("\nLangkah 5");
+  print(nav2);
+
+
+  // Langkah 6 - Collection For
+  var listOfInts = [1, 2, 3];
+
+  var listOfStrings = [
+    '#0',
+    for (var i in listOfInts) '#$i'
+  ];
+
+  assert(listOfStrings[1] == '#1');
+
+  print("\nLangkah 6");
+  print(listOfStrings);
+}
