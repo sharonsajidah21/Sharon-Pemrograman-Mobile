@@ -1,0 +1,30 @@
+void main() {
+  var gifts = {
+    'first': 'partridge',
+    'second': 'turtledoves',
+    'fifth': 'golden rings',
+    'nama': 'Sharon Avrilunajwa Sajidah',
+    'nim': '244107060017'
+  };
+
+  var nobleGases = {
+    2: 'helium',
+    10: 'neon',
+    18: 'argon',
+    19: 'Sharon Avrilunajwa Sajidah',
+    20: '244107060017'
+  };
+
+  var mhs1 = Map<String, String>();
+  mhs1['nama'] = 'Sharon Avrilunajwa Sajidah';
+  mhs1['nim'] = '244107060017';
+
+  var mhs2 = Map<int, String>();
+  mhs2[1] = 'Sharon Avrilunajwa Sajidah';
+  mhs2[2] = '244107060017';
+
+  print(gifts);
+  print(nobleGases);
+  print(mhs1);
+  print(mhs2);
+}
